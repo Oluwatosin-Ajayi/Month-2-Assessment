@@ -35,6 +35,17 @@ body {
   gap: 20px;
 }
 
+.about-me p {
+  color: rgb(177, 107, 107);
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.about-me p:hover {
+  color: yellow;
+  font-size: 20px;
+}
+
 .side-content {
   display: grid;
   grid-template-columns: 1fr;
@@ -61,19 +72,30 @@ body {
 .hobbies .hobby {
   color: red;
   display: inline-block;
+  font-weight: bolder;
   border-bottom: 2px solid red;
+}
+
+.hobbies p {
+  color: rgb(8, 36, 216);
 }
 
 .aspirations .aspire-box {
   color: blue;
   display: inline-block;
+  font-weight: bold;
   border-bottom: 2px solid blue;
+}
+
+.aspirations p {
+  color: salmon;
 }
 
 .title {
   display: inline-block;
   color: #33c017;
   border-bottom: 2px solid #33c017;
+  font-weight: bold;
 }
 .title:hover {
   color: #1e644d;
